@@ -12,6 +12,8 @@
   // (2) Run the query on the winestore through the connection
   $query = "SELECT * FROM wine";
   $result = mysql_query($query, $connection);
+
+  echo "<h1>Wines</h1>";
  
   // Start the HTML body, and output preformatted text
   echo "<pre>\n";

@@ -7,7 +7,7 @@
  
   // (1) Open the database connection
   $connection = mysql_connect(DB_HOST, DB_USER, DB_PW);
-  mysql_select_db("winestore", $connection);
+  mysql_select_db(DB_NAME, $connection);
  
   // (2) Run the query on the winestore through the connection
   $query = "SELECT * FROM wine";
